@@ -17,13 +17,11 @@
 // a nice way to remember which pin has the LED
 const int LEDPIN = 13;
 
-
 // the setup routine runs once
 void setup() {
   // always set up your pins
   pinMode(LEDPIN, OUTPUT);
 }
-
 
 // the loop routine runs over and over
 void loop() {

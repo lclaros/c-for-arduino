@@ -27,14 +27,12 @@
 // this defines the analog pin to use
 const int SENSORPIN = A4;
 
-
 // the setup routine runs once
 void setup() {
   
   // set the baud rate
   Serial.begin(19200);
 }
-
 
 // the loop routine runs over and over
 void loop() {

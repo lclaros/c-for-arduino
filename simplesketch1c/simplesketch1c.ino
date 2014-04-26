@@ -17,7 +17,6 @@
 // a nice way to remember which pin has the LED
 const int LEDPIN = 13;
 
-
 // define a function that blinks the LED "blinks" times
 void blinkIt(int blinks) {
 
@@ -29,13 +28,11 @@ void blinkIt(int blinks) {
   }
 }
 
-
 // the setup routine runs once
 void setup() {
   // always set up your pins
   pinMode(LEDPIN, OUTPUT);
 }
-
 
 // the loop routine runs over and over
 void loop() {

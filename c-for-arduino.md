@@ -5,10 +5,10 @@ A sequence of simple sketches for illustrating the C programming language on the
 1.  Testing with `if`:
     <%= simplesketch1a/simplesketch1a.ino =%>
 2.  Repeating things with `for`:
-    <%= simplesketch1a/simplesketch1b.ino =%>
+    <%= simplesketch1b/simplesketch1b.ino =%>
 3.  Defining a `function`:
-    <%= simplesketch1a/simplesketch1c.ino =%>
+    <%= simplesketch1c/simplesketch1c.ino =%>
 4.  Using C++ objects:
-    <%= simplesketch1a/simplesketch1d.ino =%>
+    <%= simplesketch1d/simplesketch1d.ino =%>
 5.  Using datatypes like `float`:
-    <%= simplesketch1a/simplesketch1e.ino =%>
+    <%= simplesketch1e/simplesketch1e.ino =%>

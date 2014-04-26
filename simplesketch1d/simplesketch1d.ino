@@ -26,7 +26,6 @@ void setup() {
   Serial.println("we are in setup");
 }
 
-
 // the loop routine runs over and over
 void loop() {
   Serial.println("we are in loop");
