@@ -44,7 +44,7 @@ void loop() {
   sum = 0.0;
   for (int i = 0; i < 5; i++) {
     sensor = analogRead(SENSORPIN);  // returns a value from 0 to 1023
-    sum = sum + sensor/1023.0;       // convert that value to a 0.0 to 1.0 range, and sum it
+    sum = sum + sensor;       // Collect new value from sensor in sum.
     
     Serial.print(sensor);
     Serial.print(" ");
