@@ -3,12 +3,10 @@
 
 int LEDPIN = 13;
 
-
 // the setup routine runs once when you press reset:
 void setup() {  
     pinMode(LEDPIN, OUTPUT);
 }
-
 
 // initialize the digital pin as an output.
 void loop() {  
