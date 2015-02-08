@@ -2,13 +2,19 @@
 
 A sequence of simple sketches for illustrating the C programming language on the Arduino.
 
-1.  Testing with `if`:
-    <%= simplesketch1a/simplesketch1a.ino =%>
-2.  Repeating things with `for`:
-    <%= simplesketch1b/simplesketch1b.ino =%>
-3.  Defining a `function`:
-    <%= simplesketch1c/simplesketch1c.ino =%>
-4.  Using C++ objects:
-    <%= simplesketch1d/simplesketch1d.ino =%>
-5.  Using datatypes like `float`:
-    <%= simplesketch1e/simplesketch1e.ino =%>
+1.  The most basic sketch:
+    <%= on/on.ino =%>
+2.  Testing with `if`:
+    <%= if/if.ino =%>
+3.  Saving state with a variable:
+    <%= state/state.ino =%>
+4.  Looping with `while`:
+    <%= while/while.ino =%>
+5.  Looping with `for`:
+    <%= for/for.ino =%>
+6.  Defining a `function`:
+    <%= functions/functions.ino =%>
+7.  Using C++ objects:
+    <%= serial/serial.ino =%>
+5.  Using datatypes like `float`, and putting it all together:
+    <%= alltogether/alltogether.ino =%>
